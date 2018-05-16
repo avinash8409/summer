@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+
+.navbar .brand, .navbar .nav > li > a
+  {
+    color:#42f4b0;
+     font-family:"Roboto", sans-serif;
+}
+  .navbar .brand, .navbar .nav > li > a:hover
+  {
+     font-family:"Roboto", sans-serif;
+    animation-fill-mode: forwards;
+    color: white;
+    background-color:;
+border-radius:15px;
+transform: rotateY(360deg);
+animation-duration: 3s;
+transition-duration: 2s;
+}
+.navbar .brand, .navbar .nav > li > a:active
+{
+  color: #0bc16f;
+  background-color:#0bc16f;
+   font-family:"Roboto", sans-serif;
+}
+.parallax {
+    /* The image used */
+background-image: url("space.gif");     
+  height:650px;
+       max-width:100%;
+
+    /* Set a specific height */
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    text-decoration: none;
+      border-radius: 75%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram
+{
+  background:tomato;
+}
+body
+{
+  background-image: url("space1.gif");
+}
+#MyDivName
+{
+  background-image:url("space9.gif");
+  font-style: oblique;
+  color: white;
+}
+#logo
+{
+  background-image:url("space3.gif");
+}
+#member
+{
+  background-image: url("teamback12.jpg");
+}
+
+</style>
+</head>
+<!--for navigation bar-->
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="height:auto;width:100%;">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><b>AAVISKAR 2.0</b></a></div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+       <li><a href="#HOME">HOME</a></li>
+        <li><a href="#ABOUT">ABOUT</a></li>
+         <li><a href="#EVENTS">EVENTS</a></li>
+          <li><a href="#TEAM">TEAM</a></li>
+           <li><a href="#SPONSORS">SPONSORS</a></li>
+           <li><a href="#CONTACT">CONTACT US</a></li>
+            <li class="dropdown">
+         <a class="dropdown-toggle" data-toggle="dropdown" href="#">OTHERS
+         <span class="caret"></span></a>
+         <ul class="dropdown-menu" style="background-color:#42f4b0;border-radius:10px;">
+         <li><a href="#NEWS">NEWS</a></li>
+         <li><a href="#">EVENTS</a></li>
+         <li><a href="boot5.html">LIVE</a></li>
+         <li><a href="#">BLOGS</a></li></li></ul>
+        </li></ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="login.html">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
+          <li><a href="login.html">Signin <span class="glyphicon glyphicon-user"></span></a></li>
+        </ul>
+      </div></div>
+    </nav>
+      <!--/navigation bar-->
+      <!--home page-->
+<div id="HOME">
+  <div class="container-fluid" style="margin-top:80px;width:100%;">
+
+
+<div class="parallax">
+  <div class="row">
+    <div class="col-md-12">
+      <img class="img-responsive" src="avi1.png" style="position: relative;margin: auto;height: 350px;width: 300px;margin-top: 50px;">
+    </div></div>
+
+</div></div></div>
+<div id="ABOUT">
+  <div class="container-fluid">
+    <h1 style="border: 1px;border-radius: 10px;background-color: black;color: white;font-style: oblique;text-align: center;"><b>ABOUT US</b></h1>
+<div class="row" style="height:;background-color:orange;font-size:20px;overflow:scroll;">
+<div class="col-md-4">
+<div class="well" style="border-radius:10px;height:45rem;" id="logo">
+<img class="img-responsive" src="aavishkar.png" style="height:35rem;margin:auto;">
+<blockquote style="color: white;text-align: center;"><b>AAVISHKAR 2.0</b><footer><oblique>Think.Create.Innovate</oblique></footer></blockquote>
+</div></div>
+
+
+     <div class="well" style="list-style-type:square;overflow:scroll;height:47rem; border-radius:10px;color:white;" id="MyDivName" onMouseOver="pauseDiv()" onMouseOut="resumeDiv()">
+<h3 style="color: tomato;font-size: 25px;"><b>Aavishkar-The Tech Fest, NIT Durgapur is the official technical fest of NIT Durgapur. It aims to instill a desire
+ for technical expertise ,rational thinking ,logical thought process and open-source contributions. With more than
+ 40 events which include online and offline events, it tries to bring to the fore people in fields other than academia.
+ Numerous workshops,guest lectures and exhibitions are organised to provide a platform where people not only have fun,
+ but also learn and grow, Aavishkar is a step in the goal of encompassing all technical domains and serve it for students of
+ NIT Durgapur and our guests from other colleges. Aavishkar, undoubtedly has the potential to emerge as one of the most desired and
+ participated-in technical fest of the country.Aavishkar-The Tech Fest, NIT Durgapur is the official technical fest of NIT Durgapur. It aims to instill a desire
+ for technical expertise ,rational thinking ,logical thought process and open-source contributions. With more than
+ 40 events which include online and offline events, it tries to bring to the fore people in fields other than academia.
+ Numerous workshops,guest lectures and exhibitions are organised to provide a platform where people not only have fun,
+ but also learn and grow, Aavishkar is a step in the goal of encompassing all technical domains and serve it for students of
+ NIT Durgapur and our guests from other colleges. Aavishkar, undoubtedly has the potential to emerge as one of the most desired and
+ participated-in technical fest of the country.Aavishkar-The Tech Fest, NIT Durgapur is the official technical fest of NIT Durgapur. It aims to instill a desire
+ for technical expertise ,rational thinking ,logical thought process and open-source contributions. With more than
+ 40 events which include online and offline events, it tries to bring to the fore people in fields other than academia.
+ Numerous workshops,guest lectures and exhibitions are organised to provide a platform where people not only have fun,
+ but also learn and grow, Aavishkar is a step in the goal of encompassing all technical domains and serve it for students of
+ NIT Durgapur and our guests from other colleges. Aavishkar, undoubtedly has the potential to emerge as one of the most desired and
+ participated-in technical fest of the country.</b>
+</h3>
+</div>
+</div></div></div>
+<!--/home page-->
+  <hr>
+
+        <h1 style="text-align: center;background-color: black;border:2px;border-radius: 10px;color: white;"><b>EVENTS</b></h1>
+  <div class="container-fluid" style="margin-top: 100px;">
+    <div id="EVENTS">
+      <div class="row">
+      <div class="col-md-4">
+        <div class="well" style="height: 30rem;width: 30rem;border-radius: 10px;margin: auto;text-align: center;margin-bottom: 20px;">
+      <a href="onlineevent.html"><img class="img-responsive" src="online.png"></a>
+      <b><oblique>ONLINE EVENTS</oblique></b></div></div>
+      <div class="col-md-4">
+      <div class="well" style="height: 30rem;width: 30rem;border-radius: 10px;margin: auto;text-align: center;margin-bottom: 20px;">
+      <a href="offlineevent.html"><img class="img-responsive" src="offline.png"></a>
+      <b><oblique>OFFLINE EVENTS</oblique></b></div></div>
+      <div class="col-md-4">
+        <div class="well" style="height: 30rem;width: 30rem;border-radius: 10px;margin: auto;text-align: center;">
+      <a href="workshop.html"><img class="img-responsive" src="workshop.png"></a>
+      <b><oblique>WORKSHOPS</oblique></b></div></div>
+</div></div><hr>
+<div id="TEAM">
+
+  <div class="container-fluid" style="margin-top: 100px;">
+      <h1 style="text-align: center;background-color: black;color:white;border: 2px;border-radius: 10px;"><b>OUR TEAM</b></h1>
+
+     <div class="row">
+      <div class="col-sm-4">
+<div class="well" id="member" style="height: 30rem;width: 25rem;border-radius: 10px;margin: auto;text-align: center;margin-bottom: 60px;color: white;">
+      <a href="boot2.html"><img class="img-responsive" src="simrat.jpg" style="height: 24rem;width: 20rem;border-radius: 10px;margin: auto;"></a>
+     <b>SIMRAT SINGH</b><hr><b>MNTC President</b></div>
+      </div>
+      <div class="col-sm-4">
+ <div class="well" id="member" style="height: 30rem;width: 25rem;border-radius: 10px;margin: auto;text-align: center;background-color: #260f30;margin-bottom: 60px;color: white;">
+      <a href="boot2.html"><img class="img-responsive" src="akash.jpg" style="height: 24rem;width: 20rem;border-radius: 10px;margin: auto;""></a>
+      <b>AKASH AGARWAL</b><hr><b>MNTC Treasurer and Tech head</b></div>
+      </div>
+      <div class="col-sm-4">
+ <div class="well" id="member" style="height: 30rem;width: 25rem;border-radius: 10px;margin: auto;text-align: center;background-color: #260f30;margin-bottom: 60px;color: white;">
+      <a href="boot2.html"><img class="img-responsive" src="gs.jpg" style="height: 24rem;width: 20rem;border-radius: 10px;margin: auto;"></a>
+      <b>RAVI SAI TEJA</b><hr><b>MNTC General Secratory</b></div>
+      </div>
+</div>
+<div class="row">
+      <div class="col-sm-4">
+<div class="well" id="member" style="height: 30rem;width: 25rem;border-radius: 10px;margin: auto;text-align: center;background-color: #260f30;margin-bottom: 60px;color: white;">
+      <a href="boot2.html"><img class="img-responsive" src="atish.jpg" style="height: 24rem;width: 20rem;border-radius: 10px;margin: auto;"></a>
+      <b>ATISH KUMAR MAJEE</b><hr><b>MNTC Asst.General Secratory</b></div>
+      </div>
+      <div class="col-sm-4">
+<div class="well" id="member" style="height: 30rem;width: 25rem;border-radius: 10px;margin: auto;text-align: center;background-color: #260f30;margin-bottom: 60px;color: white;">
+      <a href="boot2.html"><img class="img-responsive" src="harshit.jpg" style="height: 24rem;width: 20rem;border-radius: 10px;margin: auto;"></a>
+      <b>HARSHIT RATHORE</b><hr><b>MNTC Sponsorship Head</b></div>
+      </div>
+      <div class="col-sm-4">
+<div class="well" id="member" style="height: 30rem;width: 25rem;border-radius: 10px;margin: auto;text-align: center;background-color: #260f30;margin-bottom: 60px;color: white;">
+      <a href="boot2.html"><img class="img-responsive" src="conv.jpg" style="height: 24rem;width: 20rem;border-radius: 10px;margin: auto;"></a>
+      <b>NITISH KESHARI</b><hr><b>MNTC convenor</b></div>
+      </div>
+</div>
+</div></div>
+<a href="team.html"><button type="button" class="btn center-block btn-lg" style="text-decoration: none;border:1px solid gray;color:black;border-radius: 20px;"><b>All Team Members</b></button></a>
+    <hr>
+<div class="container-fluid" style="margin-top: 50px;">
+  <div id="SPONSORS">
+     <h1 style="text-align: center;border:2px;border-radius: 10px;background-color: black;color: white;"><b>SPONSORS</b></h1>
+     <div class="row">
+    <div class="col-sm-12">
+      <h1 style="text-align: center;;border:2px solid black;border-radius: 10px;color: yellow;"><b>TITLE SPONSOR</b></h1>
+      <img class="img-responsive" src="nokia.png" style="margin: auto;">
+    </div></div>
+    <a href="partner.html""><button type="button" class="btn center-block btn-lg" style="text-decoration: none;border:1px solid gray;color:black;border-radius: 20px;"><b>All Sponsors</b></button></a>
+    
+</div></div>
+<hr>
+<h1 style="text-align: center;font-style: oblique;margin-top:15rem;color: white;"><b>Be A Part Of Aavishkar 2.0</b></h1>
+<a href="partner.html""><button type="button" class="btn center-block btn-lg" style="text-decoration: none;border: 1px solid gray;color:black;border-radius: 20px;margin-bottom:10rem;"><b>Register</b></button></a><hr>
+
+<div id="CONTACT" style="margin-top: 100px;">
+<footer class="footer" style="margin-top: 100px;">
+  
+    <div class="container-fluid" style="height:60rem;background-color:gray;text-align:center;margin-top: 200px;margin-bottom: 100px;">
+      <h1 style="text-align:center;">AAVISHKAR 2.0</h1>
+      <h4 style="text-align:center;">NIT Durgapur</h4>
+      <h2 style="text-align:center;">follow us on:</h2>
+      <div class="col-xs-4">
+      <a href="#" class="fa fa-facebook"></a></div>
+      <div class="col-xs-4">
+      <a href="#" class="fa fa-twitter"></a></div>
+      <div class="col-xs-4">
+      <a href="#" class="fa fa-instagram"></a></div>
+      <b style="text-align: center;">visit us at:</b>
+      <h4 style="text-align:center;">www.avskr.in</h4>
+    <blockquote><footer style="color: white;">designed and maintained by Maths N Tech Club-NIT DURGAPUR</footer></blockquote>
+    </div>
+  </footer></div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>
